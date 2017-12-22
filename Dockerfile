@@ -12,7 +12,7 @@ RUN mkdir -p ${SearchLogDir} ${TestResultDir}
 
 WORKDIR ${TOMCAT_HOME}
 
-COPY ./search webapps/search
+#COPY ./search webapps/search
 
 ADD ./docker-entrypoint.sh /usr/bin/
 
